@@ -11,12 +11,11 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 0
-  script: python -m pip install . --no-deps -vv
+  number: 1
+  noarch: python
+  script: "{{ PYTHON }} -m pip install . --no-deps -vv"
 
 requirements:
-  build:
-    - {{ compiler('c') }}
   host:
     - python
     - pip
@@ -46,3 +45,4 @@ about:
 extra:
   recipe-maintainers:
     - thebestnom
+    - xylar
