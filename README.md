@@ -19,9 +19,8 @@ Neobolt is a Bolt connector library for Python. It is generally intended for use
 Current build status
 ====================
 
-[![Linux](https://img.shields.io/circleci/project/github/conda-forge/neobolt-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/neobolt-feedstock)
-[![OSX](https://img.shields.io/travis/conda-forge/neobolt-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/neobolt-feedstock)
-[![Windows](https://img.shields.io/appveyor/ci/conda-forge/neobolt-feedstock/master.svg?label=Windows)](https://ci.appveyor.com/project/conda-forge/neobolt-feedstock/branch/master)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/neobolt-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/neobolt-feedstock)
 
 Current release info
 ====================
@@ -116,4 +115,5 @@ Feedstock Maintainers
 =====================
 
 * [@thebestnom](https://github.com/thebestnom/)
+* [@xylar](https://github.com/xylar/)
 
