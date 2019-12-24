@@ -1,6 +1,6 @@
 {% set name = "neobolt" %}
-{% set version = "1.7.15" %}
-{% set sha256 = "56b86b8b2c3facdd54589e60ecd22e0234d6f40645ab2e2cf87ef0cd79df20af" %}
+{% set version = "1.7.16" %}
+{% set sha256 = "ca4e87679fe3ed39aec23638658e02dbdc6bbc3289a04e826f332e05ab32275d" %}
 
 package:
   name: {{ name|lower }}
