@@ -1,6 +1,6 @@
 {% set name = "neobolt" %}
-{% set version = "1.7.16" %}
-{% set sha256 = "ca4e87679fe3ed39aec23638658e02dbdc6bbc3289a04e826f332e05ab32275d" %}
+{% set version = "1.7.17" %}
+{% set sha256 = "1d0d5efce7221fc4f0ffc4a315bc5272708be5aa2aef5434269e800372d8db89" %}
 
 package:
   name: {{ name|lower }}
@@ -11,7 +11,7 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 1
+  number: 0
   script: python -m pip install . --no-deps -vv
 
 requirements:
@@ -41,7 +41,7 @@ about:
   description: |
     Neobolt is a Bolt connector library for Python. It is generally intended for use by a higher level driver.
   doc_url: http://neobolt.readthedocs.io/en/latest/
-  dev_url: https://github.com/technige/neobolt 
+  dev_url: https://github.com/technige/neobolt
 
 extra:
   recipe-maintainers:
